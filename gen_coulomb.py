@@ -261,7 +261,7 @@ for eri_abcd in eri_list:
     if c == 'p' or c == 'd':
         print(f'        const auto QC_0 = (a_l * inv_S2) * (r_l[c0] - r_k[c0]);')
     if c == 'd':
-        print(f'        const auto QC_1 = (a_l * inv_S2) * (r_l[c1] - r_k[c1];')
+        print(f'        const auto QC_1 = (a_l * inv_S2) * (r_l[c1] - r_k[c1]);')
     if d == 'p' or d == 'd':
         print(f'        const auto QD_0 = (-a_k * inv_S2) * (r_l[d0] - r_k[d0]);')
     if d == 'd':
